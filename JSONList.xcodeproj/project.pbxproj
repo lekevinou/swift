@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AC63BA811FFF5E9400C7101F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BA801FFF5E9400C7101F /* AppDelegate.swift */; };
-		AC63BA831FFF5E9400C7101F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BA821FFF5E9400C7101F /* ViewController.swift */; };
 		AC63BA861FFF5E9400C7101F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC63BA841FFF5E9400C7101F /* Main.storyboard */; };
 		AC63BA881FFF5E9400C7101F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC63BA871FFF5E9400C7101F /* Assets.xcassets */; };
 		AC63BA8B1FFF5E9400C7101F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC63BA891FFF5E9400C7101F /* LaunchScreen.storyboard */; };
 		AC63BA961FFF5E9400C7101F /* JSONListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BA951FFF5E9400C7101F /* JSONListTests.swift */; };
 		AC63BAA11FFF5E9400C7101F /* JSONListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BAA01FFF5E9400C7101F /* JSONListUITests.swift */; };
+		ACD7737B2011CEF100B9728B /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7737A2011CEF100B9728B /* PostListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AC63BA7D1FFF5E9400C7101F /* JSONList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC63BA801FFF5E9400C7101F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC63BA821FFF5E9400C7101F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC63BA851FFF5E9400C7101F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC63BA871FFF5E9400C7101F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC63BA8A1FFF5E9400C7101F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AC63BA9C1FFF5E9400C7101F /* JSONListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC63BAA01FFF5E9400C7101F /* JSONListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONListUITests.swift; sourceTree = "<group>"; };
 		AC63BAA21FFF5E9400C7101F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD7737A2011CEF100B9728B /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		AC63BA7F1FFF5E9400C7101F /* JSONList */ = {
 			isa = PBXGroup;
 			children = (
+				ACD7737A2011CEF100B9728B /* PostListViewController.swift */,
 				AC63BA801FFF5E9400C7101F /* AppDelegate.swift */,
-				AC63BA821FFF5E9400C7101F /* ViewController.swift */,
 				AC63BA841FFF5E9400C7101F /* Main.storyboard */,
 				AC63BA871FFF5E9400C7101F /* Assets.xcassets */,
 				AC63BA891FFF5E9400C7101F /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC63BA831FFF5E9400C7101F /* ViewController.swift in Sources */,
+				ACD7737B2011CEF100B9728B /* PostListViewController.swift in Sources */,
 				AC63BA811FFF5E9400C7101F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +507,7 @@
 				AC63BAA71FFF5E9400C7101F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC63BAA81FFF5E9400C7101F /* Build configuration list for PBXNativeTarget "JSONListTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				AC63BAAA1FFF5E9400C7101F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC63BAAB1FFF5E9400C7101F /* Build configuration list for PBXNativeTarget "JSONListUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				AC63BAAD1FFF5E9400C7101F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
