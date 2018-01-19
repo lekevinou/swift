@@ -14,6 +14,7 @@
 		AC63BA961FFF5E9400C7101F /* JSONListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BA951FFF5E9400C7101F /* JSONListTests.swift */; };
 		AC63BAA11FFF5E9400C7101F /* JSONListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63BAA01FFF5E9400C7101F /* JSONListUITests.swift */; };
 		ACD7737B2011CEF100B9728B /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7737A2011CEF100B9728B /* PostListViewController.swift */; };
+		ACD7737D2011DD3400B9728B /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7737C2011DD3400B9728B /* PostDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC63BAA01FFF5E9400C7101F /* JSONListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONListUITests.swift; sourceTree = "<group>"; };
 		AC63BAA21FFF5E9400C7101F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD7737A2011CEF100B9728B /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		ACD7737C2011DD3400B9728B /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AC63BA871FFF5E9400C7101F /* Assets.xcassets */,
 				AC63BA891FFF5E9400C7101F /* LaunchScreen.storyboard */,
 				AC63BA8C1FFF5E9400C7101F /* Info.plist */,
+				ACD7737C2011DD3400B9728B /* PostDetailViewController.swift */,
 			);
 			path = JSONList;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD7737B2011CEF100B9728B /* PostListViewController.swift in Sources */,
+				ACD7737D2011DD3400B9728B /* PostDetailViewController.swift in Sources */,
 				AC63BA811FFF5E9400C7101F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

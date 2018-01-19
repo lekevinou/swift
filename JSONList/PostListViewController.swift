@@ -41,4 +41,11 @@ class PostListViewController : UITableViewController {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "DetailSegue" {
+            let detailViewController = segue.destination as! PostDetailViewController
+            detailViewController.postJSON = jsonArray[tableView.indexPathForSelectedRow!.row]
+        }
+    }
+    
 }
